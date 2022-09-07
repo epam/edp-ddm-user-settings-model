@@ -5,7 +5,7 @@
 
 	<groupId>com.epam.digital.data.platform</groupId>
 	<artifactId>user-settings-model</artifactId>
-	<version>1.6.0</version>
+	<version>1.8.0</version>
 
 	<name>user-settings-model</name>
 	<description>Models for user settings service</description>
