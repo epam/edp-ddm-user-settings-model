@@ -20,7 +20,8 @@ import com.fasterxml.jackson.annotation.JsonValue;
 
 public enum Channel {
   EMAIL("email"),
-  DIIA("diia");
+  DIIA("diia"),
+  INBOX("inbox");
 
   private final String value;
 
