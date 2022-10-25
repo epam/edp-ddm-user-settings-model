@@ -18,7 +18,7 @@ package com.epam.digital.data.platform.settings.model.dto;
 
 import javax.validation.constraints.NotNull;
 
-public class ActivateEmailInputDto {
+public class ActivateChannelInputDto {
 
   @NotNull
   private String address;
