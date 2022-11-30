@@ -20,8 +20,17 @@ import javax.validation.constraints.NotNull;
 
 public class SettingsDeactivateChannelInputDto {
 
+  private String address;
   @NotNull
   private String deactivationReason;
+
+  public String getAddress() {
+    return address;
+  }
+
+  public void setAddress(String address) {
+    this.address = address;
+  }
 
   public String getDeactivationReason() {
     return deactivationReason;
